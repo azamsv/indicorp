@@ -410,5 +410,61 @@ input {
     color: #FFFFFF;
     cursor: pointer;
 }
-
 /*SECTION CLIENTS*/
+
+/*SECTION CONTACTS*/
+#contacts {
+    padding: 80px 0 150px;
+}
+.contacts_title {
+    width: 470px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contacts_desc {
+    margin: 10px auto 80px;
+
+}
+.contacts_grid {
+    height: 333px;
+    display: grid;
+    grid-template-columns: repeat(3, 328px);
+    align-items: center;
+    grid-column-gap: 2px;
+}
+.contacts_grid svg {
+    margin-bottom: 15px;
+}
+.contacts_mail {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.contacts_support {
+    display: block;
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.clients_btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+    background: #FFFFFF;
+    border: 1px solid #FFA62B;
+    width: 160px;
+    height: 44px;
+    border-radius: 5px;
+}
+/*SECTION CONTACTS*/

@@ -24,9 +24,6 @@ input {
 /*BASE CONF*/
 
 /*UNIQUE CONF*/
-.row {
-    display: flex;
-}
 .d-flex {
     display: flex;
 }
@@ -116,10 +113,13 @@ input {
     color: #737373;
     margin-right: 21px;
 }
+.header_burger {
+    display: none;
+}
 /*HEADER*/
 
 /*SECTION HERO*/
-#hero {
+.hero {
     height: 100vh;
     padding-top: 184px;
     background: url("../images/hero-bg.png")no-repeat center/cover;
@@ -151,13 +151,13 @@ input {
     position: relative;
     height: 100%;
 }
-#hero .row {
+.hero .row {
     position: absolute;
+    width: 100%;
     gap: 30px;
     bottom: -19px;
 }
 .hero_card {
-    width: 328px;
     padding: 35px 0 35px 40px;
     height: 210px;
     background: #FFFFFF;
@@ -195,7 +195,7 @@ input {
 /*SECTION HERO*/
 
 /*SECTION REASON*/
-#reason {
+.reason {
     padding: 211px 0 80px;
 }
 .reason_title {
@@ -203,10 +203,10 @@ input {
     text-transform: uppercase;
 }
 .reason_desc {
-    width: 511px;
+    max-width: 511px;
     margin: 10px auto 50px;
 }
-#reason .row {
+.reason .row {
     gap: 40px;
 }
 .reason_card {
@@ -236,7 +236,7 @@ input {
 /*SECTION REASON*/
 
 /*SECTION PRACTICE*/
-#practice {
+.practice {
     padding: 125px 0 81px;
 }
 .practice_title {
@@ -245,7 +245,7 @@ input {
 .practice_desc {
     margin: 10px 0 45px;
 }
-#practice .row {
+.practice .row {
     gap: 40px;
 }
 .practice_card {
@@ -270,18 +270,18 @@ input {
 /*SECTION PRACTICE*/
 
 /*SECTION ABOUT*/
-#about {
+.about {
     padding: 100px 0;
     background: #FFF;
 }
 .about_title {
-    width: 477px;
+    max-width: 477px;
     margin: 0 auto;
     text-align: center;
 }
 .about_desc {
     margin: 15px auto 100px;
-    width: 511px;
+    max-width: 511px;
 }
 .about_video {
     position: relative;
@@ -346,7 +346,7 @@ input {
 /*SECTION CLIENTS*/
 
 .clients_top {
-    height: 339px;
+    height: 262px;
     background: #FAFAFA;
 }
 .clients_grid {
@@ -414,7 +414,7 @@ input {
 /*SECTION CLIENTS*/
 
 /*SECTION CONTACTS*/
-#contacts {
+.contacts {
     padding: 80px 0 150px;
     background: #F3F3F3;
 }
@@ -552,7 +552,7 @@ input {
     display: flex;
 }
 .footer_link svg {
-    margin-right: 10px;
+    margin-left: 20px;
 }
 .footer_bottom {
     height: 74px;
@@ -565,23 +565,21 @@ input {
     letter-spacing: 0.2px;
     color: #737373;
 }
-.fa-facebook-square {
+.footer_icon {
+    display: inline-block;
+    margin-left: 20px;
     font-size: 24px;
+}
+.footer_icon .fa-facebook-square {
     color: #335BF5;
 }
-.fa-instagram {
-    font-size: 24px;
+.footer_icon .fa-instagram {
     color: #E61F5A;;
 }
-.fa-twitter {
-    font-size: 24px;
+.footer_icon .fa-twitter {
     color: #21A6DF;
 }
-.fa-brands {
-     margin-right: 20px;
-}
-.fa-youtube {
-    font-size: 24px;
+.footer_icon .fa-youtube {
     color: #E42F08;
 }
 

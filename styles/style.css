@@ -128,7 +128,7 @@ input {
     font-weight: 800;
     font-size: 58px;
     line-height: 80px;
-    width: 509px;
+    max-width: 509px;
 }
 .hero_desc {
     font-size: 20px;

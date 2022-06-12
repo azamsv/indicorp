@@ -203,7 +203,7 @@ input {
     text-transform: uppercase;
 }
 .reason_desc {
-    width: 511px;
+    max-width: 511px;
     margin: 10px auto 50px;
 }
 .reason .row {
@@ -275,13 +275,13 @@ input {
     background: #FFF;
 }
 .about_title {
-    width: 477px;
+    max-width: 477px;
     margin: 0 auto;
     text-align: center;
 }
 .about_desc {
     margin: 15px auto 100px;
-    width: 511px;
+    max-width: 511px;
 }
 .about_video {
     position: relative;
@@ -552,7 +552,7 @@ input {
     display: flex;
 }
 .footer_link svg {
-    margin-right: 10px;
+    margin-left: 20px;
 }
 .footer_bottom {
     height: 74px;

@@ -329,6 +329,9 @@
     .contacts_desc {
         margin: 10px auto 65px;
     }
+    .contacts_grid .grid_col-4 {
+        justify-content: center;
+    }
     .contacts_card {
         height: 393px;
     }
